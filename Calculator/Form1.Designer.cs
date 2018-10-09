@@ -46,6 +46,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Tính";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -85,18 +86,30 @@
             // 
             // textBox3
             // 
+<<<<<<< HEAD
             this.textBox3.Location = new System.Drawing.Point(248, 100);
             this.textBox3.Margin = new System.Windows.Forms.Padding(6, 3, 6, 3);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(218, 22);
             this.textBox3.TabIndex = 1;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+=======
+            this.textBox3.Location = new System.Drawing.Point(248, 115);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(6, 3, 6, 3);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(218, 22);
+            this.textBox3.TabIndex = 3;
+>>>>>>> feature-bylinh3
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(826, 164);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.textBox3);
+>>>>>>> feature-bylinh3
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox3);
